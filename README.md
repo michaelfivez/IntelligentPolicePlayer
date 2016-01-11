@@ -12,9 +12,9 @@ Included libraries:
 ## Installation ##
 - Download the latest [release](https://github.com/michaelfivez/IntelligentPolicePlayer/releases).
 - Unpack the zip to any location.
-- The program needs to acces certain .dll and xml files in the same folder as the .exe, so don't move any files.
-- ffmpeg: if the location of ffmpeg is not moved in the application, the program should be able to access it. If there is some problem set the absolute path in the settings manually: It needs to refer to `directory_ffmpeg_is_placed_in\ffmpeg\bin\ffmpeg`. You can always revert to the default path by pressing 'default' in the settings.
-- Launch Policework_v2 (the 44KB Application file). For easier access, you may create a link to the executable.
+- The program needs to acces certain .dll and xml files in the same folder as the .exe, so don't move any file.
+- ffmpeg: if the location of ffmpeg is not moved in the application, the program should be able to access it. If there is some problem, set the absolute path in the settings manually: It needs to refer to `directory_ffmpeg_is_placed_in\ffmpeg\bin\ffmpeg`. You can always revert to the default path by pressing 'default' in the settings.
+- Launch Policework_v2.exe (the 44KB Application file). For easier access, you may create a link to the executable.
 
 ## Workflow of the program ##
 - Select the files from the 'open file' or 'open multiple file' menu.
