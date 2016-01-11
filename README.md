@@ -6,20 +6,15 @@ This program is created by Michael Fivez in October - January 2015.
 It is licensed under GPL-3.0 (http://www.gnu.org/licenses/gpl.html).
 This means you are free to do whatever you want with it, but if you use it in your work, you should grant the user the same freedoms.
 Included libraries:
-- ffmpeg (https://www.ffmpeg.org/)
-  licensed mainly under LGPL-2.1, with parts GPL-2.0
-- Aforge (http://www.aforgenet.com/)
-  licensed under LGPL-3.0 with parts GPL-3.0
+- [ffmpeg](https://www.ffmpeg.org/): licensed mainly under LGPL-2.1, with parts GPL-2.0
+- [Aforge](http://www.aforgenet.com/): licensed under LGPL-3.0, with parts GPL-3.0
 
 ## Installation ##
-- Download the latest [release](https://github.com/michaelfivez/IntelligentPolicePlayer/releases)
-- Unpack the zip to any location, and run Policework_v2 application (create a shortcut if you want easier acces)
-- The program needs to acces certain .dll and xml files in the same folder as the .exe, so don't move any files
-- ffmpeg: if the location of ffmpeg is not moved in the application, the program should be able to access it
-	if there is some problem set the absolute path in the settings manually:
-	It needs to refer to 'directory_ffmpeg_is_placed_in'/ffmpeg/bin/ffmpeg
-	You can always revert to the default path by pressing 'default' in the settings
-- Launch Policework_v2 (the 44KB Application file)
+- Download the latest [release](https://github.com/michaelfivez/IntelligentPolicePlayer/releases).
+- Unpack the zip to any location.
+- The program needs to acces certain .dll and xml files in the same folder as the .exe, so don't move any files.
+- ffmpeg: if the location of ffmpeg is not moved in the application, the program should be able to access it. If there is some problem set the absolute path in the settings manually: It needs to refer to `directory_ffmpeg_is_placed_in\ffmpeg\bin\ffmpeg`. You can always revert to the default path by pressing 'default' in the settings.
+- Launch Policework_v2 (the 44KB Application file). For easier access, you may create a link to the executable.
 
 ## Workflow of the program ##
 - Select the files from the 'open file' or 'open multiple file' menu.
