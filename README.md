@@ -1,16 +1,17 @@
-READ ME
+## Description ##
+This program detects movement in camera footage. It works on Windows and needs Microsoft NET4.0 to run.
 
-Legal:
-This program is created by Michael Fivez in oktober - january 2015
-It is licensed under GPL-3.0 (http://www.gnu.org/licenses/gpl.html), because several components have components listed under this license
-This means you are free to do whatever you want with it, but if you use it in your work, you should grant the user the same freedoms
+## Legal ##
+This program is created by Michael Fivez in October - January 2015.
+It is licensed under GPL-3.0 (http://www.gnu.org/licenses/gpl.html).
+This means you are free to do whatever you want with it, but if you use it in your work, you should grant the user the same freedoms.
 Included libraries:
 - ffmpeg (https://www.ffmpeg.org/)
   licensed mainly under LGPL-2.1, with parts GPL-2.0
 - Aforge (http://www.aforgenet.com/)
   licensed under LGPL-3.0 with parts GPL-3.0
 
-Installing notes:
+## Installation ##
 - Unpack the zip to any location, and run with the Policework_v2 application (create a shortcut if you want easier acces)
 - The program needs to acces certain .dll and xml files in the same folder as the .exe, so don't move any files
 - ffmpeg: if the location of ffmpeg is not moved in the application, the program should be able to access it
@@ -19,7 +20,7 @@ Installing notes:
 	You can always revert to the default path by pressing 'default' in the settings
 - Launch Policework_v2 (the 44KB Application file)
 
-Worflow of program:
+## Worflow of the program ##
 - Select the files from the 'open file' or 'open multiple file' menu.
 	Each time you open new file, it will only use those (see the information printed in the console)
 - Then press convert and the files will convert to the folder specified in settings (convertor output)
@@ -40,7 +41,7 @@ Worflow of program:
 - You can use reset to reset the state of the program, and load in a new sequence of files.
 	The converted files will be removed
 
-Some notes:
+## Notes ##
 - The console prints helpfull information when you make a mistake or when an action is executed
 - A terminal opens minimized to give feedback when converting long files (which can take 2 minutes per hour of video)
 - If you accidently press this terminal when it opens and the program gets stuck, press 'escape' to have the program continue
@@ -55,7 +56,7 @@ Some notes:
 	Reset doesn't reset the output folder or any settings
 - The final video generation works a lot faster when the video files are in shorter pieces (1 file being 10 hours will be a lot slower then 20 files of 30 minutes)
 
-Choosable settings:
+## Parameters ##
 -- settings for processing (These settings reset when relaunching the program)
 - Threshold : The lower this value, the more sensitive the program to movement (default = 20)
 - ObjectSize : The lower this value, the more sensitive the program to movement (default = 50)
