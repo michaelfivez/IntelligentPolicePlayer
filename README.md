@@ -57,7 +57,7 @@ Included libraries:
 - The final video generation works a lot faster when the video files are in shorter pieces (1 file being 10 hours will be a lot slower then 20 files of 30 minutes)
 
 ## Parameters ##
--- settings for processing (These settings reset when relaunching the program)
+Settings for processing (these settings reset when relaunching the program).
 - Threshold : The lower this value, the more sensitive the program to movement (default = 20)
 - ObjectSize : The lower this value, the more sensitive the program to movement (default = 50)
 - MovementWindow : The amount of seconds before and after each part with movement, that will be kept in the output
